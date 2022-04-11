@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express(),
       bodyParser = require("body-parser");
-      port = 3080;
+      const PORT = process.env.PORT || 3080; //use heroku port or local 3080
 
 // place holder for the data
 const users = [];
