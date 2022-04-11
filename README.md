@@ -1,2 +1,2 @@
-# nextjs-nodejs-example
-Example Project on how to develop and build NEXT.js with NodeJS Backend
+# react-nodejs-example
+Example Project demonstrating how to develop React application with Nodejs 
