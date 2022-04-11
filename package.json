@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.bundle.js",
     "build": "webpack",
-    "dev": "nodemon ./server.js localhost 3080"
+    "dev": "nodemon ./server.js localhost 3080",
+    "heroku-postbuild": "yarn install --prefix my-app && yarn run build --prefix my-app"
   },
   "repository": {
     "type": "git",
